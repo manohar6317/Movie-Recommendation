@@ -7,7 +7,7 @@ This repository contains a movie recommendation system built using collaborative
 The goal of this project is to provide users with accurate and relevant movie recommendations. The system takes into account user ratings and predicts how a user would rate a movie they haven't seen. This is achieved by implementing a matrix factorization approach using SVD.
 
 ## Project Structure
-movie-recommendation/
+```bash
 movie-recommendation/
 ├── data/
 │   ├── movies.csv
@@ -26,6 +26,7 @@ movie-recommendation/
 ├── README.md
 ├── app.py
 └── Dockerfile
+```
 **Explanation of Key Files/Folders:**
 
 *   **`data/`**:  Holds the movie and ratings data.
